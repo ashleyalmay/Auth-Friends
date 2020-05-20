@@ -32,7 +32,7 @@ const AddFriend = props => {
   return (
     <form onSubmit={handleSubmit}>
       <div className='newFriendDiv'>
-        <h3>Add New Friend</h3>
+        <h1>Add New Friend</h1>
         <label id='name'>Name:</label>
         <input
           name='name'
